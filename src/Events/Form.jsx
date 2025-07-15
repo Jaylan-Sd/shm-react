@@ -1,4 +1,8 @@
 function MyForm() {
+  const getNameValue = (e) => {
+    console.log(e.target.value);
+  };
+
   return (
     <div>
       <div>
@@ -6,7 +10,7 @@ function MyForm() {
           <label>Name</label>
         </p>
         <p>
-          <input type="text" />
+          <input onChange={getNameValue} type="text" />
         </p>
       </div>
       <div>
