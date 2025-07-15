@@ -6,11 +6,11 @@ function Buttons() {
   const clicked = () => {
     console.log("Button Clicked")
   };
-  const alertDate = () => {
-    let date = new Date()
-    console.log(date);
-    alert (date);
-  };
+ const alertDate = () => {
+  let date = new Date();
+  console.log(date);
+  alert(date);
+};
 
   return (
     <div>
