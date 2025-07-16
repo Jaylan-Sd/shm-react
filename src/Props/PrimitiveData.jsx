@@ -3,6 +3,9 @@ function ParentComponent() {
   const img = "https://m.media-amazon.com/images/I/716H7P4ga3L._AC_SY741_.jpg";
   const price = 2000;
   const onStock = true;
+  let doc = {
+    name: "",
+  };
 
   // <Component a={23} b={34} key={value} key={value} />
   // {key:value}
@@ -14,8 +17,9 @@ function ParentComponent() {
         img={img}
         price={price}
         onStock={onStock}
-        any={343}
+        doc={doc}
       />
+
       <ChildComponent2 name={name} img={img} price={price} onStock={onStock} />
       <ChildComponent3 name={name} img={img} price={price} onStock={onStock} />
     </div>

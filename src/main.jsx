@@ -13,11 +13,14 @@ import MiniProject from "./MiniProject";
 import "./css.css";
 
 import "./mycss/main.css";
-
 import SimpleState from "./Hooks/State/SimpleState";
+
+import SimpleState2 from "./Hooks/State/SimpleState2";
+
+import FormState from "./Hooks/State/FormState";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <SimpleState />
+    <FormState />
   </StrictMode>
 );
